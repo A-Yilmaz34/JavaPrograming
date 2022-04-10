@@ -1,18 +1,24 @@
 package practice;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Test2 {
 
     public static void main(String[] args) {
 
+        String str = "the fox ran under the bridge";
 
-        int i = 0;
-        int j = 7;
-        for ( i = 0; i <j-1 ; i+=2) {
-            System.out.print(i+"");
-        }
+        str = str.substring(4,17);
 
+        str.toUpperCase();
+
+        System.out.println(str);
 
 
 
     }
+
 }
+
+
